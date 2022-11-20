@@ -28,7 +28,7 @@ description:           >
   Totsuka's Super Blog
 
 # A list of keywords for your blog
-keywords:              [blog, develop, game]
+keywords:              [blog, develop, tools, game]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -49,6 +49,8 @@ menu:
     url:               /about/
   - title:             Develop
     url:               /develop/
+  - title:             Tools
+    url:               /tools/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -88,18 +90,18 @@ theme_color:           rgb(120,0,86)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:700|Nanum+Gothic:400,400i,700,700i|Nanum+Gothic+Coding:400,400i,700,700i
+google_fonts:          Roboto+Slab:700|Noto+Sans+KR|Inconsolata:600
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Nanum Gothic, Noto Sans, Helvetica, Arial, sans-serif
+font:                  Noto Sans KR
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Nanum Gothic, Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Roboto Slab
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
-font_code:             Nanum Gothic Coding, Consolas;
+font_code:             Inconsolata;
 
 favicon: /assets/img/favicon_io/favicon.ico
 apple_touch_icon: /assets/img/favicon_io/apple-touch-icon.png
