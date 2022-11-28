@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://totsuka89.github.io/sitemap.xml
