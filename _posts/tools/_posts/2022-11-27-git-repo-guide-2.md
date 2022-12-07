@@ -45,7 +45,7 @@ repo는 xml 파일로부터 관리해야할 repository의 정보를 가져온다
 
 ## Preparation
 
-1. repo가 설치되어 있지 않다면 설치한다. **[Repo 사용하기 1 (설치)](https://totsuka89.github.io/tools/2022-11-24-git-repo-guide/)**
+1. repo가 설치되어 있지 않다면 설치한다. **[Repo 사용하기 1 (설치)](https://totsuka89.github.io/tools/2022-11-24-git-repo-guide-1/)**
 
 2. 테스트 용 Git repository를 준비한다.  
 &nbsp;repository를 만들거나 commit을 하는 등 git을 사용하는 방법은 이후 다른 포스트에 작성하기로 한다.  
