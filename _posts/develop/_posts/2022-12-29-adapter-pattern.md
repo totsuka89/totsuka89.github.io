@@ -44,10 +44,10 @@ public class MP4PLayer implements MoviePlayer {
     }
 }
 ~~~
-(java 예제. MusicPlayer 인터페이스와 구상클래스, MoviePlayer 인터페이스와 구상클래스)
+(java 예제. `MusicPlayer` 인터페이스와 구상클래스, `MoviePlayer` 인터페이스와 구상클래스)
 {:.figcaption}
 
-&nbsp;위의 예제와 같이 MusicPlayer와 MoviePlayer가 있는데, MusicPlayer가 필요한 곳에 MoviePlayer를 대신 사용해야 하는 상황이라고 가정한다. 인터페이스가 다르기 때문에 바로 MoviePlayer 구상 클래스를 사용할 수는 없다. 이 때 MoviePlayer를 변환하는 Adapter가 필요하게 된다.
+&nbsp;위의 예제와 같이 `MusicPlayer`와 `MoviePlayer`가 있는데, `MusicPlayer`가 필요한 곳에 `MoviePlayer`를 대신 사용해야 하는 상황이라고 가정한다. 인터페이스가 다르기 때문에 바로 `MoviePlayer` 구상 클래스를 사용할 수는 없다. 이 때 `MoviePlayer`를 변환하는 Adapter가 필요하게 된다.
 
 ## Example (Adapter 클래스)
 ~~~java
@@ -68,5 +68,5 @@ public class PlayerAdapter implements MusicPlayer {
 (java 예제. Adapter 클래스 예제)
 {:.figcaption}
 
-&nbsp;Adapter인 PlayerAdapter 클래스는 생성자에서 Adaptee인 MoviePlayer의 레퍼런스를 인자로 받는다. 이를 통해 Adaptee의 메소드를 호출한다.  
-&nbsp;PlayerAdapter는 MusicPlayer 인터페이스를 사용했기 때문에 사용하는 client 쪽에서는 이를 MusicPlayer로 사용할 수 있다. Adapter안에 실제로 뭐가 들어있는지 알 수도 없고 알 필요도 없다.
+&nbsp;Adapter인 `PlayerAdapter` 클래스는 생성자에서 Adaptee인 `MoviePlayer`의 레퍼런스를 인자로 받는다. 이를 통해 Adaptee의 메소드를 호출한다.  
+&nbsp;`PlayerAdapter`는 `MusicPlayer` 인터페이스를 사용했기 때문에 사용하는 Client 쪽에서는 이를 `MusicPlayer`로 사용할 수 있다. Adapter안에 실제로 뭐가 들어있는지 알 수도 없고 알 필요도 없다.
